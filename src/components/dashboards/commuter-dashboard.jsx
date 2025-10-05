@@ -211,7 +211,7 @@ export function CommutterDashboard({ userInfo, onLogout }) {
 
       <div className="container py-6 px-4">
         <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
-          <TabsList className="grid w-full grid-cols-4">
+          <TabsList className="w-full flex">
             <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
             <TabsTrigger value="bookings">My Bookings</TabsTrigger>
             <TabsTrigger value="book">Book Ticket</TabsTrigger>
